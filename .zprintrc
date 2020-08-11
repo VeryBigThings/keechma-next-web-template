@@ -1,0 +1,2 @@
+{:style :community
+ :fn-map {"defnc" [:arg2-pair {:vector {:wrap? false}}]}}
