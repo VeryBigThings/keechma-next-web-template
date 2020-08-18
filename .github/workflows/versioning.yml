@@ -39,8 +39,6 @@ jobs:
           prWoLabels: "true"
           filterByMilestone: "true"
           author: "true"
-          unreleased: "true"
-          unreleasedLabel: "true"
           compareLink: "true"
           stripGeneratorNotice: "true"
           token: ${{ secrets.GITHUB_TOKEN }}
