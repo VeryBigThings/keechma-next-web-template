@@ -1,8 +1,12 @@
 # Changelog
 
-## [true](https://github.com/VeryBigThings/keechma-next-web-template/tree/HEAD)
+## [v1.1.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.1.0) (2020-08-18)
 
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.0.0...HEAD)
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.0.0...v1.1.0)
+
+**Implemented enhancements:**
+
+- Update workflow files [\#12](https://github.com/VeryBigThings/keechma-next-web-template/pull/12) ([tiborkr](https://github.com/tiborkr))
 
 **Fixed bugs:**
 
