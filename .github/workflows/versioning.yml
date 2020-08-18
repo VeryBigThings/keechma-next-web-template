@@ -12,7 +12,11 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: rymndhng/release-on-push-action@master
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: ./.github/actions/tag-and-release/
         name: Tag and Release
         with:
           bump_version_scheme: minor
@@ -26,7 +30,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Generate Changelog
-        uses: ./.github/actions/
+        uses: ./.github/actions/versioning/
         id: generate_changelog
         with:
           issues: "true"
