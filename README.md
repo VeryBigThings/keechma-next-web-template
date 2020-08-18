@@ -1,13 +1,102 @@
-This project was bootstrapped with [Create CLJS App](https://github.com/filipesilva/create-cljs-app).
-
 ## VBT Stuff
 
+**Foreword** 
+
+_Purpose of this repo is to test out a project structure, development processes and workflows to determine the template which best suits our day-to-day needs in the agency - one can expect breaking changes will be introduced until we work out the kinks_
+
+---
+### Basics
 1. Change the name of the project in `package.json`
 2. Run `git config core.hooksPath .githooks` to set `pre-commit` hooks (yarn lint and yarn format)
-3. Add member responsible for code (default PR request reviewer to CODEOWNERS FILE (line 24))
-4. Branch of `master`, label PR's to master with appropriate label for proper tag semver (`release:major`, 
-   `release:minor`, `release:patch`), and add appropriate labeles to PRs, issues, etc for CHANGELOG sections 
-   (`documentation`, `enhancement`, `bug`) 
+3. Update CODEOWNERS file accordingly (with project leads)
+
+---
+
+### Release Management
+
+Idea behind this setup is to automate as much workflow as possible, while trying to reduce human error to minimum.
+Releasing, tagging and changelog updates are done via Git Actions when `push to master` occurs. Outcome is determined
+by comparing closed Pull Requests that have happened since last tag was made. Some defaults are implemented, but can
+be further fine-tuned by leveraging PR label mechanism.
+
+#### Tagging and Releasing
+ * Based on [Semver](http://semver.org/)
+ * Flexible version bumping scheme with a project default or overrides using Pull Request Labels
+ * Creates Release Notes automatically (with a list of commits since the last release)
+ * PR labels `release:major`, `release:minor` and `release:patch` determine the Semver version bump (`major.minor.patch`)
+ * Closed PR's since last Tag are used for consideration
+ * default is `release:minor`
+
+ Workflow examples:
+
+ ```
+       v1.0.0     v1.1.0                   v1.0.1
+        |          |                        |
+ - - ---o----------o------------------------o     master branch
+                    \                      /
+                     \                    /    PR [release:patch]
+                      \                  /
+                       o--------o-------o     bug-fix-branch
+```
+
+ ```
+       v1.0.0     v1.1.0                                         v2.0.0
+        |          |                                              |
+ - - ---o----------o----------------------------------------------o     master branch
+                    \                                            /
+                     \                                          /     merge ** // see footnote
+                      \                                        /
+                       o------------o-------------------------o     feature-foo
+                        \          /                         /
+                         \        /  PR [release:patch]     /
+                          \      /                         /
+                           o----o  feature-foo-1          /
+                            \                            /
+                             \                          /     PR [release:major]
+                              \                        /
+                               o----------------------o     feature-foo-2
+```
+** merge - _since all the PR's are used for consideration, the one made to commit code to master would also be used (with no labels applied, default [minor] would be used which could influence the final outcome)_
+
+ 
+#### Changelog Generator
+ * based on [Github Changelog Generator](https://github.com/github-changelog-generator/github-changelog-generator)
+ * Generates a changelog file based on tags, issues and merged pull requests (and splits them into separate lists according to labels)
+ * Labels `bug`, `enhancement` and `documentation` are used to sort changes in sections, others are grouped together
+
+Workflow example:
+ ```
+       v1.0.0     v1.1.0                                                     v2.0.0
+        |          |                                                          |
+ - - ---o----------o----------------------------------------------------------o     master branch
+                    \                                                        /
+                     \                                                      /     merge**
+                      \                                                    /
+                       o------------o-------------------------------------o     feature-foo
+                        \          /                                     /
+                         \        /  PR [release:minor enhancement]     /
+                          \      /                                     /
+                           o----o  feature-foo-1                      /
+                            \                                        /
+                             \                                      /     PR [release:major bug]
+                              \                                    /
+                               o----------------------------------o     feature-foo-2
+``` 
+
+```
+v2.0.0 (2020-08-17)
+Full Changelog
+
+Implemented enhancements:
+
+feature-foo-1 #1 (tiborkr)
+
+Fixed bugs:
+
+feature-foo-2 #2 (tiborkr)
+```
+
+---
 
 ## Available Scripts
 
@@ -79,4 +168,6 @@ Quick reference https://cljs.info/cheatsheet/.
 Offline searchable docs https://devdocs.io/.
 
 VSCode plugin https://github.com/BetterThanTomorrow/calva.
+
+This project was bootstrapped with [Create CLJS App](https://github.com/filipesilva/create-cljs-app).
 
