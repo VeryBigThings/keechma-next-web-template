@@ -1,5 +1,21 @@
 # Changelog
 
+## [true](https://github.com/VeryBigThings/keechma-next-web-template/tree/HEAD)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.0.0...HEAD)
+
+**Fixed bugs:**
+
+- Clean action "release-on-push-action" [\#9](https://github.com/VeryBigThings/keechma-next-web-template/issues/9)
+
+## [v1.0.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.0.0) (2020-08-18)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v0.3.1...v1.0.0)
+
+**Fixed bugs:**
+
+- Fix workflows and add examples [\#11](https://github.com/VeryBigThings/keechma-next-web-template/pull/11) ([tiborkr](https://github.com/tiborkr))
+
 ## [v0.3.1](https://github.com/VeryBigThings/keechma-next-web-template/tree/v0.3.1) (2020-08-11)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v0.3.0...v0.3.1)
