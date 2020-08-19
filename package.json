@@ -14,7 +14,7 @@
     "report": "shadow-cljs run shadow.cljs.build-report app report.html",
     "lint": "clj-kondo --lint src",
     "format": "zprint-clj --hang -i \"./src/**/*.{clj,cljs,cljc,edn}\" -o ./ && zprint-clj -i \"./*.edn\" -o ./",
-    "clean": "rimraf public/js",
+    "clean": "rimraf public/js && rm -rf .shadow-cljs",
     "postcss": "postcss src/app/ui/style.css -o public/css/style.css",
     "postcss:watch": "postcss src/app/ui/style.css -o public/css/style.css -w",
     "purge-css": "purgecss -c purgecss.config.js -o public/css",
