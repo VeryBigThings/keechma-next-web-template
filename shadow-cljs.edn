@@ -1,6 +1,8 @@
 {:builds
  {:app
   {:asset-path "/js",
+   :dev       {:compiler-options {:external-config {:guardrails {}}
+                                  :closure-defines {'goog.DEBUG true}}}
    :devtools {},
    :modules {:main {:init-fn app.core/main}},
    :output-dir "public/js",
