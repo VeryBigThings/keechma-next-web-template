@@ -4,15 +4,15 @@
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.2.0...v1.2.1)
 
-**Implemented enhancements:**
-
-- Clean shadow.cljs in `clean` command [\#8](https://github.com/VeryBigThings/keechma-next-web-template/issues/8)
-
 ## [v1.2.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.2.0) (2020-08-19)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.1.0...v1.2.0)
 
 Issues #4 , #7, #8 and #13 have been resolved with this release.
+
+**Implemented enhancements:**
+
+- Clean shadow.cljs in `clean` command [\#8](https://github.com/VeryBigThings/keechma-next-web-template/issues/8)
 
 **Fixed bugs:**
 
