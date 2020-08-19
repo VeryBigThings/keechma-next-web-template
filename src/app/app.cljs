@@ -1,5 +1,6 @@
 (ns app.app
   (:require [keechma.next.controllers.router]
+            [keechma.next.controllers.dataloader]
             [keechma.next.controllers.subscription]
             ["react-dom" :as rdom]))
 
