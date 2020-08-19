@@ -4,11 +4,15 @@
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.2.0...v1.2.1)
 
+**Fixed bugs:**
+
+- Fix indent error [\#16](https://github.com/VeryBigThings/keechma-next-web-template/pull/16) ([tiborkr](https://github.com/tiborkr))
+
 ## [v1.2.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.2.0) (2020-08-19)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.1.0...v1.2.0)
 
-Issues #4 , #7, #8 and #13 have been resolved with this release.
+\[1.2.0\] Summary [\#15](https://github.com/VeryBigThings/keechma-next-web-template/issues/15)
 
 **Implemented enhancements:**
 
@@ -19,7 +23,6 @@ Issues #4 , #7, #8 and #13 have been resolved with this release.
 - Missing dataloader in app.cljs causes error [\#13](https://github.com/VeryBigThings/keechma-next-web-template/issues/13)
 - Fix Tailwing/purgecss [\#7](https://github.com/VeryBigThings/keechma-next-web-template/issues/7)
 - Add guardrails [\#4](https://github.com/VeryBigThings/keechma-next-web-template/issues/4)
-- Fix indent error [\#16](https://github.com/VeryBigThings/keechma-next-web-template/pull/16) ([tiborkr](https://github.com/tiborkr))
 
 **Merged pull requests:**
 
