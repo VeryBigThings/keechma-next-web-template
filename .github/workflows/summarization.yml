@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Get Previous Tag
-         run: |
+        run: |
            PREV_TAG=$(git describe --abbrev=0 --tags "${{ github.ref }}^")
            echo "::set-env name=baseRef::$PREV_TAG"
       - name: Generate Changelog
