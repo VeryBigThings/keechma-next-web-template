@@ -1,5 +1,14 @@
 # Changelog
 
+## [v1.4.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.4.0) (2020-08-25)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.3.0...v1.4.0)
+
+**Fixed bugs:**
+
+- Add missing app instance reset to core \[line 17\] [\#18](https://github.com/VeryBigThings/keechma-next-web-template/issues/18)
+- Add missing app instance reset [\#19](https://github.com/VeryBigThings/keechma-next-web-template/pull/19) ([tiborkr](https://github.com/tiborkr))
+
 ## [v1.3.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.3.0) (2020-08-25)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.2.1...v1.3.0)
