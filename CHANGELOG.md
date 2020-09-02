@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.4.1](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.4.1) (2020-09-02)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.0...v1.4.1)
+
+**Merged pull requests:**
+
+- Update deps.edn [\#21](https://github.com/VeryBigThings/keechma-next-web-template/pull/21) ([mirocosic](https://github.com/mirocosic))
+
 ## [v1.4.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.4.0) (2020-08-25)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.3.0...v1.4.0)
