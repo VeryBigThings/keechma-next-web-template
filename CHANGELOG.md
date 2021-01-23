@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.6.0) (2021-01-23)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.6.0)
+
+## [v1.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.5.0) (2021-01-23)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.1...v1.5.0)
+
+**Fixed bugs:**
+
+- Fixed env-variables declaration [\#23](https://github.com/VeryBigThings/keechma-next-web-template/pull/23) ([Cukac](https://github.com/Cukac))
+
 ## [v1.4.1](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.4.1) (2020-09-02)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.0...v1.4.1)
