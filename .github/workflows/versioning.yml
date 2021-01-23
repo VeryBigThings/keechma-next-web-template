@@ -46,7 +46,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.name ${{ github.actor }}
-          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo ::set-env name=push::1 || echo "No changes to CHANGELOG.md"
+          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo "push=1" >> $GITHUB_ENV || echo "No changes to CHANGELOG.md"
       - name: Push changes  # push the output folder to your repo
         if: env.push == 1
         uses: ad-m/github-push-action@master
