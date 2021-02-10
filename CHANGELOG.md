@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.7.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.7.0) (2021-02-10)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.6.0...v1.7.0)
+
+**Implemented enhancements:**
+
+- Upgrade tailwind to 2.0.3 [\#26](https://github.com/VeryBigThings/keechma-next-web-template/pull/26) ([dpoljak](https://github.com/dpoljak))
+
 ## [v1.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.6.0) (2021-01-23)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.6.0)
