@@ -6,4 +6,5 @@
            keechma.next.toolbox.pipeline/pipeline!     cljs.core/fn}
  :linters {:unused-binding {:exclude-destructured-keys-in-fn-args true}
            :unresolved-symbol {:exclude [(keechma.next.helix.lib/defnc [props])
+                                         (keechma.pipelines.core/pipeline!)
                                          (keechma.next.helix.template/defnt [configurable slot optional-slot])]}}}
