@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.8.1](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.8.1) (2021-03-10)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.8.0...v1.8.1)
+
+**Closed issues:**
+
+- Upgrade Tailwind to 2.0 [\#25](https://github.com/VeryBigThings/keechma-next-web-template/issues/25)
+
+**Merged pull requests:**
+
+- Update config.edn [\#28](https://github.com/VeryBigThings/keechma-next-web-template/pull/28) ([mirocosic](https://github.com/mirocosic))
+
 ## [v1.8.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.8.0) (2021-02-10)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.7.0...v1.8.0)
@@ -10,19 +22,19 @@
 
 ## [v1.7.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.7.0) (2021-02-10)
 
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.7.0)
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.6.0...v1.7.0)
 
 **Implemented enhancements:**
 
 - Upgrade tailwind to 2.0.3 [\#26](https://github.com/VeryBigThings/keechma-next-web-template/pull/26) ([dpoljak](https://github.com/dpoljak))
 
-## [v1.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.5.0) (2021-01-23)
-
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.6.0...v1.5.0)
-
 ## [v1.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.6.0) (2021-01-23)
 
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.1...v1.6.0)
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.6.0)
+
+## [v1.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.5.0) (2021-01-23)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.1...v1.5.0)
 
 **Fixed bugs:**
 
