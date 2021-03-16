@@ -13,7 +13,8 @@
 
 (defnc HomeRenderer [_]
   ($ HomepageWrapper
-     (d/div {:class "flex flex-1 flex-col items-center justify-center px-2"}
+     (d/div {:class "flex flex-1 flex-col items-center justify-center px-2 bg-[#1da1f1]"}
+            "This <div> element is colored with a bg-[#1da1f1] class... Barbaric"
             ($ Main)
             ($ Hello))))
 

@@ -8,8 +8,8 @@
   [count set-count]
   (d/div "The atom " (d/code "click-count")
          " has value: " count
-         ". " (d/input {:type "button",
-                        :value "Click me!",
+         ". " (d/input {:type "button"
+                        :value "Click me!"
                         :on-click #(set-count inc count)})))
 
 (defnc Hello []
