@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.9.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.9.0) (2021-05-03)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.8.2...v1.9.0)
+
 ## [v1.8.2](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.8.2) (2021-03-18)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.8.1...v1.8.2)
