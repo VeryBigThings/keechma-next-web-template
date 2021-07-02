@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.0.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.0.0) (2021-07-02)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.9.0...v2.0.0)
+
+**Merged pull requests:**
+
+- Update deps.edn [\#31](https://github.com/VeryBigThings/keechma-next-web-template/pull/31) ([tiborkr](https://github.com/tiborkr))
+
 ## [v1.9.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.9.0) (2021-05-03)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.8.2...v1.9.0)
