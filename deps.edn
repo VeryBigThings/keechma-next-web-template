@@ -9,7 +9,7 @@
   hodgepodge #:mvn{:version "0.1.3"},
   keechma.next/toolbox
   {:git/url "https://github.com/keechma/keechma-next-toolbox.git",
-   :sha "ce5710e0df32ce7efe0132751646d25c03440d1b"},
+   :sha "0c605f8e36c51463e433f3130441bd663ae008e6"},
   lilactown/helix #:mvn{:version "0.0.14"},
   medley #:mvn{:version "1.2.0"},
   nubank/workspaces #:mvn{:version "1.0.15"},
