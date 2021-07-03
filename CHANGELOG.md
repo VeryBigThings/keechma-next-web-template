@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.2.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.2.0) (2021-07-03)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.1.0...v2.2.0)
+
+**Documentation updates:**
+
+- Update Versioning Workfile [\#33](https://github.com/VeryBigThings/keechma-next-web-template/pull/33) ([tiborkr](https://github.com/tiborkr))
+
 ## [v2.1.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.1.0) (2021-07-03)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.0.0...v2.1.0)
