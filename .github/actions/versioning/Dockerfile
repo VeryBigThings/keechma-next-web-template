@@ -1,4 +1,4 @@
-FROM ferrarimarco/github-changelog-generator:1.15.2
+FROM githubchangeloggenerator/github-changelog-generator
 
 # Install bash.
 RUN apk add --no-cache bash
