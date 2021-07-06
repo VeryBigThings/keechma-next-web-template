@@ -46,7 +46,8 @@
   (parse-response
    (curl/get
     (format "https://api.github.com/repos/%s/releases/latest" (:repo context))
-    {:headers {"Authorization" (str "token " (:token context))}})))
+    {:headers {"Authorization" (str "token " (:token context))}
+     :throw false})))
 
 ;; -- Github PRs API  ----------------------------------------------------------
 (defn fetch-related-prs
@@ -57,7 +58,8 @@
         parsed-response (parse-response
                          (curl/get "https://api.github.com/search/issues"
                                    {:headers      {"Authorization" (str "token " (:token context))}
-                                    :query-params {"q" (format "repo:%s type:pr is:closed created:>%s" (:repo context) published-at)}}))]
+                                    :query-params {"q" (format "repo:%s type:pr is:closed created:>%s" (:repo context) published-at)}
+                                    :throw        false}))]
     parsed-response))
 
 ;; -- Github Commit API  -------------------------------------------------------
