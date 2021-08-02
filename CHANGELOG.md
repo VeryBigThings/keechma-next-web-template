@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.4.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.4.0) (2021-08-02)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.3.0...v2.4.0)
+
+**Merged pull requests:**
+
+- Add tailwindcss JIT [\#34](https://github.com/VeryBigThings/keechma-next-web-template/pull/34) ([marinsmoljanic](https://github.com/marinsmoljanic))
+
 ## [v2.3.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.3.0) (2021-07-06)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.2.0...v2.3.0)
@@ -58,19 +66,19 @@
 
 ## [v1.7.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.7.0) (2021-02-10)
 
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.6.0...v1.7.0)
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.7.0)
 
 **Implemented enhancements:**
 
 - Upgrade tailwind to 2.0.3 [\#26](https://github.com/VeryBigThings/keechma-next-web-template/pull/26) ([dpoljak](https://github.com/dpoljak))
 
-## [v1.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.6.0) (2021-01-23)
-
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.6.0)
-
 ## [v1.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.5.0) (2021-01-23)
 
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.1...v1.5.0)
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.6.0...v1.5.0)
+
+## [v1.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.6.0) (2021-01-23)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.1...v1.6.0)
 
 **Fixed bugs:**
 
