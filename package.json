@@ -24,10 +24,10 @@
   "devDependencies": {
     "@testing-library/dom": "^6.11.0",
     "@testing-library/react": "^9.4.0",
-    "clj-kondo": "2020.01.13",
     "highlight.js": "9.18.0",
     "cross-env": "^7.0.3",
     "npm-run-all": "^4.1.5",
+    "clj-kondo": "2021.08.06",
     "jsdom": "^16.0.1",
     "jsdom-global": "^3.0.2",
     "marked": "^0.8.0",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.2.4",
-    "create-react-class": "~15.6.3",
+    "create-react-class": "~15.7.0",
     "postcss": "^8.2.5",
     "react": "~17.0.1",
     "react-dom": "~17.0.1",
