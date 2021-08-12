@@ -4,5 +4,7 @@ public/css/
 .cpcache
 .shadow-cljs
 node_modules
-.clj-kondo
 .netlify/
+.clj-kondo/cache/
+.clj-kondo/.cache/
+.lsp/sqlite.*.db
