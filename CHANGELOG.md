@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.5.0) (2021-08-12)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.4.0...v2.5.0)
+
+**Documentation updates:**
+
+- Update README.md [\#30](https://github.com/VeryBigThings/keechma-next-web-template/pull/30) ([mirocosic](https://github.com/mirocosic))
+
 ## [v2.4.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.4.0) (2021-08-02)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.3.0...v2.4.0)
