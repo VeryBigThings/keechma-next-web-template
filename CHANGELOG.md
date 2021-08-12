@@ -1,5 +1,19 @@
 # Changelog
 
+## [v2.5.1](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.5.1) (2021-08-12)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.5.0...v2.5.1)
+
+**Implemented enhancements:**
+
+- Update clj deps [\#38](https://github.com/VeryBigThings/keechma-next-web-template/pull/38) ([tiborkr](https://github.com/tiborkr))
+- Update deps, remove unnecessary ones, remove not used fns from app [\#37](https://github.com/VeryBigThings/keechma-next-web-template/pull/37) ([tiborkr](https://github.com/tiborkr))
+- Update clj-kondo config to exclude lsp reporting [\#36](https://github.com/VeryBigThings/keechma-next-web-template/pull/36) ([tiborkr](https://github.com/tiborkr))
+
+**Fixed bugs:**
+
+- Fix run scripts [\#35](https://github.com/VeryBigThings/keechma-next-web-template/pull/35) ([tiborkr](https://github.com/tiborkr))
+
 ## [v2.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.5.0) (2021-08-12)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.4.0...v2.5.0)
@@ -74,19 +88,19 @@
 
 ## [v1.7.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.7.0) (2021-02-10)
 
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.7.0)
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.6.0...v1.7.0)
 
 **Implemented enhancements:**
 
 - Upgrade tailwind to 2.0.3 [\#26](https://github.com/VeryBigThings/keechma-next-web-template/pull/26) ([dpoljak](https://github.com/dpoljak))
 
-## [v1.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.5.0) (2021-01-23)
-
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.6.0...v1.5.0)
-
 ## [v1.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.6.0) (2021-01-23)
 
-[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.1...v1.6.0)
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.5.0...v1.6.0)
+
+## [v1.5.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v1.5.0) (2021-01-23)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v1.4.1...v1.5.0)
 
 **Fixed bugs:**
 
