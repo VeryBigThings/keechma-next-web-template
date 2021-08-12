@@ -3,8 +3,30 @@
            keechma.next.helix.lib/defnc                cljs.core/defn
            keechma.next.helix.template/defnt           cljs.core/defn
            keechma.next.helix.classified/defclassified cljs.core/def
-           keechma.next.toolbox.pipeline/pipeline!     cljs.core/fn}
- :linters {:unused-binding {:exclude-destructured-keys-in-fn-args true}
+           graphql-builder.parser/defgraphql           cljs.core/def
+           keechma.pipelines.core/pipeline!            cljs.core/fn
+           keechma.pipelines.core/rescue!              cljs.core/fn}
+ :linters {:unused-binding    {:exclude-destructured-keys-in-fn-args true}
+           :clojure-lsp/unused-public-var {:level :warning
+                                           :exclude  #{app.core/reload
+                                                       app.core/main
+                                                       app.app/role-eq?
+                                                       app.app/reactive-page-any?
+                                                       app.validators
+                                                       app.workspaces.component-cards
+                                                       app.workspaces.main/init
+                                                       app.gql/log-success
+                                                       app.gql/log-error
+                                                       app.gql
+                                                       codox.core/build-docs
+                                                       e2e.core/app-works
+                                                       app.util.helpers/get-expired-offers
+                                                       app.util.inliner/inline}}
+           :unresolved-var    {:exclude [helix.dom
+                                         com.rpl.specter]}
            :unresolved-symbol {:exclude [(keechma.next.helix.lib/defnc [props])
                                          (keechma.pipelines.core/pipeline!)
+                                         (keechma.pipelines.core/rescue!)
+                                         (graphql-builder.parser/defgraphql)
                                          (keechma.next.helix.template/defnt [configurable slot optional-slot])]}}}
+
