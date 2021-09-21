@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.6.0) (2021-09-21)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.5.1...v2.6.0)
+
+**Merged pull requests:**
+
+- Update keechma-next-toolbox hash to most recent one [\#39](https://github.com/VeryBigThings/keechma-next-web-template/pull/39) ([Cukac](https://github.com/Cukac))
+
 ## [v2.5.1](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.5.1) (2021-08-12)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.5.0...v2.5.1)
