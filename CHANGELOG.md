@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.7.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.7.0) (2021-10-16)
+
+[Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.6.0...v2.7.0)
+
+**Merged pull requests:**
+
+- update deps.edn, cljs-ajax, hodgepodge… [\#40](https://github.com/VeryBigThings/keechma-next-web-template/pull/40) ([Cukac](https://github.com/Cukac))
+
 ## [v2.6.0](https://github.com/VeryBigThings/keechma-next-web-template/tree/v2.6.0) (2021-09-21)
 
 [Full Changelog](https://github.com/VeryBigThings/keechma-next-web-template/compare/v2.5.1...v2.6.0)
